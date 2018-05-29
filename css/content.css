@@ -1,0 +1,140 @@
+/* Author: LeQuan Ly
+   Copyright: (C) 2018 codekngswd
+   
+   Navigation Bar */
+
+/* Content Container */
+#container {
+	width: 90vw;
+	
+	position: relative;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	box-sizing: border-box;
+	
+	color: rgb(53, 56, 57);
+}
+
+/* Content 1 */
+#content1 {
+	width: 90vw;
+	height: 45vh;
+	
+	margin-top: 5vh;
+	
+	border-style: solid;
+	border-color: rgb(53, 56, 57);
+	background-color: rgb(253, 245, 230);
+	
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#content1 {
+		height: 90vh;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+	}
+}
+
+#content1 img {
+	width: 45%;
+	height: 45vh;
+	
+	margin-right: 2.5vw;
+	
+	border-right: solid rgb(53, 56, 57);
+	
+	float: left;
+}
+
+#content1 p {
+	margin: 0;
+}
+
+#content1 h1 {
+	text-align: center;
+}
+
+/* Content 2 */
+#content2 {
+	width: 90vw;
+	height: 45vh;
+	
+	margin-top: 5vh;
+	
+	border-style: solid;
+	border-color: rgb(53, 56, 57);
+	
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#content2 {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+	}
+}
+
+#content2 div {
+	width: 29.5vw;
+	display: inline-block;
+}
+
+#content2 p {
+	margin: 0;
+}
+
+#content2 img {
+	width: 29.5vw;
+	height: 45vh;
+}
+
+#content2 #middle {
+	padding-left: 0.5vw;
+}
+
+#content2 #endContainer {
+	float: right;
+}
+
+/* Content 3 */
+#content3 {
+	width: 90vw;
+	height: 45vh;
+	
+	margin-top: 5vh;
+	
+	border-style: solid;
+	border-color: rgb(53, 56, 57);
+	background-color: rgb(253, 245, 230);
+	
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#content3 {
+		height: 90vh;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+	}
+}
+
+#content3 img {
+	width: 45%;
+	height: 45vh;
+	
+	margin-left: 2.5vw;
+	
+	border-left: solid rgb(53, 56, 57);
+	
+	float: right;
+}
+
+#content3 p {
+	margin: 0;
+}
+
+#content3 h1 {
+	text-align: center;
+}

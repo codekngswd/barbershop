@@ -1,0 +1,38 @@
+/* Author: LeQuan Ly
+   Copyright: (C) 2018 codekngswd
+   
+   Global Properties */
+
+html {
+	font-family: 'Patua One', cursive;
+	font-size: 2vh;
+	
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+   
+body {
+	margin: 0;
+	padding: 0;
+	
+	/* Background Image Properties */
+	background-image: url("../images/textured_black.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	color: rgb(255, 255, 255);
+	
+	height: 100%;
+	overflow: hidden:
+}
+
+/* TESTING PURPOSES
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
