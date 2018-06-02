@@ -23,8 +23,13 @@
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<!-- CSS Class Files -->
 		<link rel="stylesheet" type="text/css" href="css/imageTextHover.css">
+		<link rel="stylesheet" type="text/css" href="css/appointment.css">
+
 		<!-- W3 CSS Files -->
 		<link rel="stylesheet" href="css/animate.css">
+
+		<!-- JavaScript Files -->
+		<script type="text/javascript" src="js/appointmentScript.js"></script>
 		
 		<!-- External Files -->
 		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
@@ -40,7 +45,7 @@
 					</td>
 
 					<td id="navigationLink">
-							<a href="" target="blank"><h1> Appointment</h1></a>
+							<a onclick="showAppointmentPopup()" target="blank"><h1> Appointment</h1></a>
 					</td>
 				</tr>
 			</table>
@@ -122,5 +127,13 @@
 				</tr>
 			</table>
 		</footer>
+		<!-- END -->
+
+		<!-- Appointment Modal -->
+		<div id="appointmentContainer" class="appointmentPopupContainer">
+			<div class="appointmentPopupContent">
+				<h1>Appointment Times</h1>
+			</div>
+		</div>
 	</body>
 </html>
