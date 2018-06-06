@@ -26,17 +26,33 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 	background-color: #FFF;
 	margin: auto auto;
 	padding: 5vh;
-	width: 40vw;
+	width: 60vw;
 	
 	/* Text Properties */
 	color: #000;
 }
 
-/** Modal Content
+/* Modal Content */
 .appointmentPopupContent h1 {
 	margin: 0;
+	
+	text-align: center;
 }
 
+.appointmentPopupContent table {
+	width: 100%;
+}
+
+.appointmentPopupContent input {
+	width: 100%;
+}
+
+.appointmentPopupContent button {
+	display: block;
+	margin: 0 auto;
+}
+
+/**
 .appointmentPopupContent p {
 	padding-top: 3vh;
 }
