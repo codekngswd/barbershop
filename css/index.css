@@ -4,7 +4,7 @@
    Global Properties */
 
 html {
-	font-family: 'Patua One', cursive;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 2vh;
 	
 	height: 100%;
@@ -16,17 +16,18 @@ body {
 	margin: 0;
 	padding: 0;
 	
-	/* Background Image Properties */
+	/* Background Image Properties 
 	background-image: url("../images/textured_black.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	*/
 	
-	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	color: rgb(253, 245, 230);
 	
 	height: 100%;
-	overflow: hidden:
 }
 
 /* TESTING PURPOSES

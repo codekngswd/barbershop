@@ -2,17 +2,6 @@
    Copyright: (C) 2018 codekngswd
    
    Icon Properties */
-   
-.icon-logo {
-	background: url("../images/icons/barber.svg");
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
-	
-	height: inherit;
-	width: 10vw;
-	display: inline-block;
-}
 
 .icon-instagram {
 	background: url("../images/icons/instagram.svg");
@@ -27,28 +16,6 @@
 
 .icon-facebook {
 	background: url("../images/icons/facebook.svg");
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
-	
-	height: 4.5vh;
-	width: 4.5vw;
-	display: inline-block;
-}
-
-.icon-twitter {
-	background: url("../images/icons/twitter.svg");
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
-	
-	height: 4.5vh;
-	width: 4.5vw;
-	display: inline-block;
-}
-
-.icon-linkedin {
-	background: url("../images/icons/linkedin.svg");
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
